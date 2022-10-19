@@ -1,6 +1,15 @@
 .main {
   margin: 20px 80px; 
 }
+.main .center-main {
+  width: 40%;
+  margin: 50px auto;
+}
+.main .center-main img {
+  width: 100%;
+  object-fit: contain;
+}
+
 .hero {
   width: 100%;
   height: 400px;
