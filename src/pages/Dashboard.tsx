@@ -5,11 +5,13 @@ import { Navigation, Autoplay } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 
 import "./styles.css";
 
 // import required modules
+import { EffectCards } from "swiper";
 import { Pagination } from "swiper";
 export default function Dashboard() {
   const pagination = {
@@ -41,6 +43,20 @@ export default function Dashboard() {
         </Swiper>
       </div>
       <div className="main">
+          <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]} className="mySwiper center-main" >
+            <SwiperSlide>
+              <img src="https://i.postimg.cc/1zGRXLFG/image.png" alt="Product 1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="https://i.postimg.cc/Pr71Q8R6/image.png" alt="Product 1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="https://i.postimg.cc/pTycVcs2/image.png" alt="Product 1" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="https://i.postimg.cc/25QVKL3Q/image.png" alt="Product 1" />
+            </SwiperSlide>
+          </Swiper>
         <h1>Let's start shopping!</h1>
         <div className="grid">
           <Swiper navigation={true}
