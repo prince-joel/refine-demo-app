@@ -9,6 +9,24 @@ import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 
 import "./styles.css";
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.png'
+import img3 from '../assets/img3.png'
+import img4 from '../assets/img4.png'
+import img5 from '../assets/img5.png'
+import img6 from '../assets/img6.png'
+import img7 from '../assets/img7.png'
+import img8 from '../assets/img8.png'
+import img9 from '../assets/img9.png'
+import img10 from '../assets/img10.png'
+import img11 from '../assets/img11.png'
+import img12 from '../assets/img12.png'
+import img13 from '../assets/img13.png'
+import img14 from '../assets/img14.png'
+import img15 from '../assets/img15.png'
+import img16 from '../assets/img16.png'
+import img17 from '../assets/img17.png'
+import img18 from '../assets/img18.png'
 
 // import required modules
 import { EffectCards } from "swiper";
@@ -36,25 +54,25 @@ export default function Dashboard() {
             disableOnInteraction: true,
           }} modules={[Navigation, Autoplay, Pagination]}
         >
-          <SwiperSlide><img src="https://i.postimg.cc/bN8Hnsz2/image.png" alt="Slide 1" /></SwiperSlide>
-          <SwiperSlide><img src="https://i.postimg.cc/Pr23rmmq/image.png" alt="Slide 2" /></SwiperSlide>
-          <SwiperSlide><img src="https://i.postimg.cc/Pr4cvGkT/image.png" alt="Slide 3" /></SwiperSlide>
-          <SwiperSlide><img src="https://i.postimg.cc/kGjQ9vk3/image.png" alt="Slide 4" /></SwiperSlide>
+          <SwiperSlide><img src={img1} loading="lazy" alt="Slide 1" /></SwiperSlide>
+          <SwiperSlide><img src={img2} loading="lazy" alt="Slide 2" /></SwiperSlide>
+          <SwiperSlide><img src={img3} loading="lazy" alt="Slide 3" /></SwiperSlide>
+          <SwiperSlide><img src={img4} loading="lazy" alt="Slide 4" /></SwiperSlide>
         </Swiper>
       </div>
       <div className="main">
           <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]} className="mySwiper center-main" >
             <SwiperSlide>
-              <img src="https://i.postimg.cc/1zGRXLFG/image.png" alt="Product 1" />
+              <img src={img5} loading="lazy" alt="Product 1" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/Pr71Q8R6/image.png" alt="Product 1" />
+              <img src={img6} loading="lazy" alt="Product 1" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/pTycVcs2/image.png" alt="Product 1" />
+              <img src={img7} loading="lazy" alt="Product 1" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/25QVKL3Q/image.png" alt="Product 1" />
+              <img src={img8} loading="lazy" alt="Product 1" />
             </SwiperSlide>
           </Swiper>
         <h1>Let's start shopping!</h1>
@@ -65,21 +83,21 @@ export default function Dashboard() {
               disableOnInteraction: false,
             }} modules={[Navigation, Autoplay]} className="mySwiper">
             <SwiperSlide>
-              <img src="https://i.postimg.cc/dtL2zBMR/image.png" alt="Product 1" />
+              <img src={img9} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/1zGRXLFG/image.png" alt="Product 1" />
+              <img src={img5} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/Pr71Q8R6/image.png" alt="Product 1" />
+              <img src={img6} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
@@ -93,21 +111,21 @@ export default function Dashboard() {
               disableOnInteraction: false,
             }} modules={[Navigation, Autoplay]} className="mySwiper">
             <SwiperSlide>
-              <img src="https://i.postimg.cc/Pr71Q8R6/image.png" alt="Product 1" />
+              <img src={img15} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/4ddJPwyq/image.png" alt="Product 1" />
+              <img src={img10} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/vH1tkdCH/image.png" alt="Product 1" />
+              <img src={img11} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
@@ -121,21 +139,21 @@ export default function Dashboard() {
               disableOnInteraction: false,
             }} modules={[Navigation, Autoplay]} className="mySwiper">
             <SwiperSlide>
-              <img src="https://i.postimg.cc/Zn07RvR1/image.png" alt="Product 1" />
+              <img src={img12} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/pTycVcs2/image.png" alt="Product 1" />
+              <img src={img7} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.postimg.cc/B6QbjHFZ/image.png" alt="Product 1" />
+              <img src={img13} loading="lazy" alt="Product 1" />
               <div className="btns">
                 <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
                 <button><img src="https://api.iconify.design/icon-park:buy.svg?color=%23888888" alt="add" /></button>
@@ -146,7 +164,7 @@ export default function Dashboard() {
 
         <div className="gallery">
           <div className="col">
-            <img src="https://i.postimg.cc/G207QNV7/image.png" alt="Product 1" />
+            <img src={img14} loading="lazy" alt="Product 1" />
             <p>iWatch Series 6</p>
             <div className="btns">
               <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
@@ -154,7 +172,7 @@ export default function Dashboard() {
             </div>
           </div>
           <div className="col">
-            <img src="https://i.postimg.cc/D0yJsfvq/image.png" alt="Product 1" />
+            <img src={img15} loading="lazy" alt="Product 1" />
             <p>Sony Headset</p>
             <div className="btns">
               <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
@@ -162,7 +180,7 @@ export default function Dashboard() {
             </div>
           </div>
           <div className="col">
-            <img src="https://i.postimg.cc/25QVKL3Q/image.png" alt="Product 1" />
+            <img src={img8} loading="lazy" alt="Product 1" />
             <p>Logitech Webcam</p>
             <div className="btns">
               <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
@@ -170,7 +188,7 @@ export default function Dashboard() {
             </div>
           </div>
           <div className="col">
-            <img src="https://i.postimg.cc/sXZZsfjm/image.png" alt="Product 1" />
+            <img src={img16} loading="lazy" alt="Product 1" />
             <p>Logitech Webcam</p>
             <div className="btns">
               <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
@@ -178,7 +196,7 @@ export default function Dashboard() {
             </div>
           </div>
           <div className="col">
-            <img src="https://i.postimg.cc/HnnSzydz/image.png" alt="Product 1" />
+            <img src={img17} loading="lazy" alt="Product 1" />
             <p>Make Over forever</p>
             <div className="btns">
               <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
@@ -186,7 +204,7 @@ export default function Dashboard() {
             </div>
           </div>
           <div className="col">
-            <img src="https://i.postimg.cc/1XkPGPwW/image.png" alt="Product 1" />
+            <img src={img18} loading="lazy" alt="Product 1" />
             <p>Milk Magic butter</p>
             <div className="btns">
               <button><img src="https://api.iconify.design/flat-color-icons:like.svg?color=%23888888" alt="like" /></button>
